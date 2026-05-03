@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo:6
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+
+  cassandra:
+    image: cassandra:4
+    container_name: cassandra_db
+    ports:
+      - "9042:9042"
+
+  dgraph:
+    image: dgraph/standalone:latest
+    container_name: dgraph_db
+    ports:
+      - "8080:8080"
+      - "9080:9080"

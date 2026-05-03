@@ -1,0 +1,7 @@
+falcon
+gunicorn
+pymongo
+cassandra-driver
+pydgraph
+chromadb
+requests
