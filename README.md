@@ -209,7 +209,7 @@ If you want the shortest version:
 Terminal 1:
 
 ```bash
-cd "/Users/mrmariano/Documents/LEARNING/ITESO/Semestre 4/Bases de Datos No Relacionales/Project/FinalDelivery"
+cd "/project"
 make install
 make up
 make run-api
@@ -218,7 +218,7 @@ make run-api
 Terminal 2:
 
 ```bash
-cd "/Users/mrmariano/Documents/LEARNING/ITESO/Semestre 4/Bases de Datos No Relacionales/Project/FinalDelivery"
+cd "/project"
 make seed
 python cli.py list-users
 python cli.py list-content
